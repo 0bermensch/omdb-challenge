@@ -5,20 +5,23 @@ import { Searchpage } from "./components/Searchpage";
 import { Nominated } from "./components/Nominated";
 import "./App.css";
 import "./lib/font-awesome/css/all.min.css";
+import { GlobalProvider } from "./store/GlobalState";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <Searchpage />
-        </Route>
-        <Route path="/nominated">
-          <Nominated></Nominated>
-        </Route>
-      </Switch>
-    </Router>
+    <GlobalProvider>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Searchpage />
+          </Route>
+          <Route path="/nominated">
+            <Nominated></Nominated>
+          </Route>
+        </Switch>
+      </Router>
+    </GlobalProvider>
   );
 }
 
