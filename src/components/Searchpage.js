@@ -6,15 +6,15 @@ export const Searchpage = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
 
+  const API_KEY = "6c9fb82e";
+
   const movieTitle = (e) => {
     setQuery(e.target.value);
   };
 
   const movie = () => {
     axios
-      .get(
-        `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_KEY}&type=movie&s=${query}`
-      )
+      .get(`http://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}`)
       .then((res) => {
         setResults(res.data.Search.map((info) => info));
       });

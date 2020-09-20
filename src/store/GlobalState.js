@@ -38,15 +38,3 @@ export const GlobalProvider = (props) => {
     </GlobalContext.Provider>
   );
 };
-
-// const initialState = {
-//   nominateList: localStorage.getItem("nominatelist")
-//     ? JSON.parse(localStorage.getItem("nominatelist"))
-//     : [],
-// };
-
-// exp;
-
-// export const GlobalState = () => {
-//   return <div></div>;
-// };
