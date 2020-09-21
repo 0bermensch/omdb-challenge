@@ -3,4 +3,4 @@ This is a searching movie and nominating movie app. Created by using React and t
 Nominated movies will be stored in localstorage
 
 
-Heroku deploymnet: https://movie-search-and-nominate-omdb.herokuapp.com/
+Github pages deployment: https://0bermensch.github.io/omdb-challenge/
