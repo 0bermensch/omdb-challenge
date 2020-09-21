@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/omdb-challenge/static/css/main.8b3b7a51.chunk.css",
+    "main.js": "/omdb-challenge/static/js/main.41f3665e.chunk.js",
+    "main.js.map": "/omdb-challenge/static/js/main.41f3665e.chunk.js.map",
+    "runtime-main.js": "/omdb-challenge/static/js/runtime-main.a69f2e81.js",
+    "runtime-main.js.map": "/omdb-challenge/static/js/runtime-main.a69f2e81.js.map",
+    "static/js/2.3a5c4e1f.chunk.js": "/omdb-challenge/static/js/2.3a5c4e1f.chunk.js",
+    "static/js/2.3a5c4e1f.chunk.js.map": "/omdb-challenge/static/js/2.3a5c4e1f.chunk.js.map",
+    "index.html": "/omdb-challenge/index.html",
+    "precache-manifest.961fcf8001d208d5a6715901f2ae1cec.js": "/omdb-challenge/precache-manifest.961fcf8001d208d5a6715901f2ae1cec.js",
+    "service-worker.js": "/omdb-challenge/service-worker.js",
+    "static/css/main.8b3b7a51.chunk.css.map": "/omdb-challenge/static/css/main.8b3b7a51.chunk.css.map",
+    "static/js/2.3a5c4e1f.chunk.js.LICENSE.txt": "/omdb-challenge/static/js/2.3a5c4e1f.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/omdb-challenge/static/media/fa-solid-900.ec763292.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a69f2e81.js",
+    "static/js/2.3a5c4e1f.chunk.js",
+    "static/css/main.8b3b7a51.chunk.css",
+    "static/js/main.41f3665e.chunk.js"
+  ]
+}
