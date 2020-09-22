@@ -8,13 +8,17 @@ export const Searchpage = () => {
 
   const API_KEY = "6c9fb82e";
 
+  const https = "https";
+
   const movieTitle = (e) => {
     setQuery(e.target.value);
   };
 
   const movie = () => {
-    fetch
-      .get(`https://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}`)
+    axios
+      .get(
+        `${https}://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}/`
+      )
       .then((res) => {
         setResults(res.data.Search.map((info) => info));
       });
