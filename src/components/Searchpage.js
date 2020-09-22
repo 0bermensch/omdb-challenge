@@ -14,7 +14,7 @@ export const Searchpage = () => {
 
   const movie = () => {
     axios
-      .get(`http://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}`)
+      .get(`https://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}`)
       .then((res) => {
         setResults(res.data.Search.map((info) => info));
       });
