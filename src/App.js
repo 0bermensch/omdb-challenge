@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/omdb-challenge">
             <Searchpage />
           </Route>
           <Route path="/nominated">

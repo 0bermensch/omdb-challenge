@@ -26,7 +26,7 @@ export const Header = () => {
             padding: "10px 0",
           }}
         >
-          <Link to="/home">Find your Movie</Link>
+          <Link to="/omdb-challenge">Find your Movie</Link>
         </div>
         <div
           className="nav-links"
