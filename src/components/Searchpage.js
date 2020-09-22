@@ -13,7 +13,7 @@ export const Searchpage = () => {
   };
 
   const movie = () => {
-    axios
+    fetch
       .get(`https://www.omdbapi.com/?apikey=${API_KEY}&type=movie&s=${query}`)
       .then((res) => {
         setResults(res.data.Search.map((info) => info));
