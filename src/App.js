@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/home">
             <Searchpage />
           </Route>
           <Route path="/nominated">
