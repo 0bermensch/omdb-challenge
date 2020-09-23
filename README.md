@@ -4,3 +4,4 @@ Nominated movies will be stored in localstorage
 
 
 Github pages deployment: https://0bermensch.github.io/omdb-challenge/
+(May have to disable insecure content for the api to pass)
